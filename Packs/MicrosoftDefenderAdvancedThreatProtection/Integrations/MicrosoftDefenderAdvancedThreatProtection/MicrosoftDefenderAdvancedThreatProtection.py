@@ -12,6 +12,8 @@ APP_NAME = 'ms-defender-atp'
 
 ''' HELPER FUNCTIONS '''
 
+'testing'
+
 
 def alert_to_incident(alert, alert_creation_time):
     incident = {
