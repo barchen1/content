@@ -759,7 +759,7 @@ script:
       type: string
   - arguments:
     - default: false
-      description: This parameter is ignored, use 'limit' instead
+      description: This parameter is ignored, use the 'limit' parameter instead.
       isArray: false
       name: resultsNumber
       required: false
