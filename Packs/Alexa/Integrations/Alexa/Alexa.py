@@ -17,6 +17,7 @@ PROXIES = handle_proxy()
 """COMMAND FUNCTIONS"""
 
 
+"testing"
 def alexa_fallback_command(domain):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, '
