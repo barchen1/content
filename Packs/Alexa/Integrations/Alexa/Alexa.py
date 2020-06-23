@@ -15,7 +15,7 @@ USE_SSL = not demisto.params().get('insecure', False)
 PROXIES = handle_proxy()
 
 """COMMAND FUNCTIONS"""
-
+'testingggg'
 
 def alexa_fallback_command(domain):
     headers = {
