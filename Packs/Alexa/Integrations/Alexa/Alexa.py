@@ -106,6 +106,8 @@ try:
         demisto.results(test_result)
     if demisto.command() == 'domain':
         alexa_domain_command()
+    if demisto.command() == 'test':
+        alexa_domain_command()
 except Exception as e:
     LOG(e)
     LOG.print_log(False)

@@ -62,11 +62,18 @@ script:
     - contextPath: Alexa.Domain.Rank
       description: Alexa rank as determined by Amazon
       type: string
+  - deprecated: false
+    description: testing
+    execution: false
+    name: test
+  feed: false
   isfetch: false
+  longRunning: false
+  longRunningPort: false
   runonce: false
-  script: ''
-  type: python
+  script: '-'
   subtype: python2
+  type: python
 tests:
 - Alexa Test Playbook
 fromversion: 3.5.0
